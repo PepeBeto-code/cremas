@@ -1,0 +1,37 @@
+
+#navbarNav > ul{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0%;
+}
+
+#navbarNav ul ul {
+  display: none;
+  position: absolute;
+  margin-left: -2em;
+}
+
+#navbarNav ul li:hover > ul {
+  display: block;
+  background: var(--blanco);
+  padding: 1em;
+}
+
+#navbarNav ul li:hover > ul > li:not(:last-child){
+   margin-bottom: 1em;
+}
+
+
+.navBar  a{
+    color: var(--color-primario) !important;
+    text-decoration: none;
+  }
+
+  #logo{
+    width: 235px;
+    height: 13vh;;
+    margin: auto;
+    padding: 0.4rem;
+  }

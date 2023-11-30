@@ -1,0 +1,28 @@
+.prosCons p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    background: var(--color-primario2);
+}
+
+.prosCons li, .contenedor a{
+    text-align: start;
+}
+
+.pros li::before{
+    content: '\2713';
+}
+
+.cons li::before{
+    content: '\2717';
+}
+
+.prosCons li{
+   max-width: 23rem;
+   display: flex;
+}
+
+.contenedor a{
+    margin: 2rem;
+    text-decoration:underline;
+}

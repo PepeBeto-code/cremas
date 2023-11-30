@@ -1,0 +1,16 @@
+.slider{
+    margin: 0px 2em
+}
+
+.slider img{
+    filter: brightness(50%);
+}
+
+.slider h3, .slider p{
+    color: var(--blanco);
+}
+
+.slick-next:before, .slick-prev:before {
+    color: var(--color-primario) !important;
+    font-size: 1.5rem  !important;
+}
