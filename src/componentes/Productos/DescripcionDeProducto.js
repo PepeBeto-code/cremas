@@ -12,8 +12,8 @@ function DescripcionDeProducto({product, left}) {
         <Image
           className="m-auto"
           src={product.img}
-          width={300}
-          height={300}
+          width={150}
+          height={150}
           alt="La Mejor Crema Para Reafirmar La Piel"
         />
         <div>
@@ -21,25 +21,38 @@ function DescripcionDeProducto({product, left}) {
           {product.descripcion}
         </p>
         <div
-          className={`${styles.prosCons} mt-[0.5rem] mb-[1rem] flex justify-content-center md:flex-row flex-col`}
+          className={`${styles.prosCons} ${ left ? "bg-[#6E471B]" : ""} m-[0.5rem] p-[1rem] flex justify-content-center flex-row`}
         >
           <div className={`${styles.pros}`}>
-            <p className='text-white'>Pros</p>
-            <ul>
-              <li className={`before:content-['\\2713'] ${ left ? "text-white" : "text-[#895C24]"}`}>
-
-                Psjkdsj jkjdks sjkjdskjdksj sj dskdjks sjdksj kks skssjd jskjds
-                jskjd
-              </li>
-              <li className={`before:content-['\\2713'] ${ left ? "text-white" : "text-[#895C24]"}`}>Pro 4</li>
+            <h3 className={` ${ left ? "text-white" : "text-[#895C24] border-[#895C24]"} text-start m-[0px] border-b`}>Pros</h3>
+            <ul className='flex flex-col align-items-center'>
+              <div className='w-fit'>
+              {
+                  product.pros.map((e,i) => {
+                    return (
+                      <li key={i} className={`p-[0.5rem] ${ left ? "text-white" : "text-[#895C24]"}`}>
+                        &#10004; {e}
+                    </li>
+                    )
+                  })
+                }
+              </div>
             </ul>
           </div>
           <div className={`${styles.cons}`}>
-            <p className='text-white'>Contras</p>
-            <ul>
-              <li className={`before:content-['\\2717'] ${ left ? "text-white" : "text-[#895C24]"}`}> contra hsdghsd hshdjs hgsdgshd sgdhsgd gshdgshgd hgsdgsjdhsj
-                hashdjahdjahd hajshajhs ahjah4
-              </li>
+            <h3 className={` ${ left ? "text-white" : "text-[#895C24] border-[#895C24]"} text-start m-[0px] border-b`}>Contras</h3>
+            <ul className='flex flex-col align-items-center'>
+              <div className='w-fit'>
+              {
+                product.contras.map((e,i) => {
+                  return (
+                    <li key={i} className={`p-[0.5rem] ${ left ? "text-white" : "text-[#895C24]"}`}> 
+                     &#10006; {e}
+                  </li>
+                  )
+                })
+              }
+              </div>
             </ul>
           </div>
         </div>

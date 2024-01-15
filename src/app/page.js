@@ -20,7 +20,7 @@ export default function Home() {
           </p>
         </div>
       <Container>
-        <section>
+        <section className="">
           <h2>Tipos De Cremas Para La Piel</h2>
           <div className="mt-[1rem]">
           <SliderTiposCremas />
@@ -28,7 +28,7 @@ export default function Home() {
         </section>
         <section className="flex items-center flex-col">
           <h2>Para una piel radiante y bien cuidada</h2>
-          <p>
+          <p className="pl-[0px] pr-[0px]">
             Una piel verdaderamente nutrida va más allá de simplemente aplicar
             crema corporal. Descubre la excelencia en cuidado personal
             explorando nuestras reseñas destacadas. Eleva tu rutina con

@@ -8,7 +8,7 @@ function SliderTiposCremas() {
     className: "center",
     centerMode: true,
     infinite: true,
-    centerPadding: "60px",
+    centerPadding: "20px",
     slidesToShow: 3,
     speed: 500,
     responsive: [
@@ -24,8 +24,8 @@ function SliderTiposCremas() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
+          slidesToShow: 1,
+          slidesToScroll: 1
         }
       },
       {

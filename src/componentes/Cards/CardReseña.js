@@ -11,11 +11,11 @@ function CardReseña(props) {
               alt="Imagen Plan Funerario"
             />
             <h3>Titulo Reseña</h3>
-            <p className={styles.texto}>gsnshj jhsjhsjhdsj jhsjhsjhdsj
+            <p className={`${styles.texto} md:block hidden`}>gsnshj jhsjhsjhdsj jhsjhsjhdsj
                 hsjhjhs hjdshjsh hsjhdjsdhjss hs hsjshjhdssd
                 jshjshds hd jhsjh hsj hsjhdjhs hsdjhsd hs
             </p>
-            <a className={styles.link} href='#'>Leer Mas</a>
+            <a className={styles.link} href='/reafirmantes'>Leer Mas</a>
         </article>
     );
 }

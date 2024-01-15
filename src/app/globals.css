@@ -4,7 +4,7 @@
 
 :root {
   --color-primario: #895C24;
-  --color-primario2: #BF7D2C;
+  --color-primario2: #6E471B;
   --blanco: #FFFFFF;
 }
 
@@ -70,7 +70,7 @@ h3{
 p{
   font-size: 18px;
   font-family: sans-serif;
-  text-align: justify;
+  /* text-align: justify; */
   hyphens: auto;
   padding: 1em 2em;
   max-width: 850px;
