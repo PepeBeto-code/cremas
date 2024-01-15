@@ -12,7 +12,7 @@ function TableComparativa({products}) {
                 {
                     products.map((e,i) => {
                         return (
-                            <th className={`${ i == 0 ? "border-[#895C24]" : ""}`}>
+                            <th key={i} className={`${ i == 0 ? "border-[#895C24]" : ""}`}>
                             <Image
                               className={`m-auto`}
                               src={e.img}
