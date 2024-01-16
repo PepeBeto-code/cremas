@@ -1,8 +1,10 @@
 .link{
-    text-decoration: underline;
     margin-bottom: 1em;
 }
 
-.texto{
-
+.h3{
+    margin-left: 0px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-left: 3px;
 }
