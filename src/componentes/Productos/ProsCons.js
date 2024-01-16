@@ -26,7 +26,7 @@ function ProsCons({pros, cons, left}) {
             </ul>
           </div>
           <div className={`${styles.cons}`}>
-            <p className='text-white'>Contras</p>
+            <p className='text-white'>Consideraciones</p>
             <ul>
             {
                     cons?.map((item,i) => {

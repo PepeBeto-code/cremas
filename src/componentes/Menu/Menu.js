@@ -28,7 +28,7 @@ function Menu() {
                   Tipos
                 </a>
                 <ul>
-                    <li><Link href="/reafirmantes">Hidratantes</Link></li>
+                    <li><Link href="/mejores-cremas-hidratantes">Hidratantes</Link></li>
                     <li><Link href="/reafirmantes">Reafirmantes</Link></li>
                 </ul>
               </li>

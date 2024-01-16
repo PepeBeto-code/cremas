@@ -17,7 +17,7 @@
 #imgPrincipal::before{
         content: "";
         position: absolute;
-        background-image: url("../../../public/images/cremas_reafirmantes.jpg");
+        background-image: url("../../public/images/cremas_reafirmantes.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
