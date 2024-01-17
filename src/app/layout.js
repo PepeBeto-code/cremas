@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import './globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Inter } from 'next/font/google'
+import MenuMovil from '@/componentes/Menu/MenuMovil';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,6 +26,8 @@ export default function RootLayout({ children }) {
         ></script>
       </Head>
       <body className={inter.className}>
+
+        <MenuMovil></MenuMovil>
         <header className='sticky-top bg-white'>
         <Menu/>
         </header>

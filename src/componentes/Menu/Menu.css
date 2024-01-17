@@ -23,6 +23,104 @@
    margin-bottom: 1em;
 }
 
+@media (max-width: 580px){
+  .menu-movil .menu-toggle {
+    color: #ccf381;
+}
+}
+
+.menu-movil .menu-toggle:before {
+  top: 0;
+}
+
+.menu-movil .menu-toggle:after {
+  right: 0;
+  width: 72% !important;
+  top: 1.13em;
+}
+
+.menu-movil .menu-toggle:before, .menu-movil .menu-toggle:after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  background-color: currentColor;
+}
+
+.menu-movil .menu-toggle {
+  z-index: 999;
+  width: 2.78em;
+  height: 2.09em;
+  background: none;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-flexbox;
+  display: inline-flex;
+  margin-top: 0.699em;
+  color: var(--color-primario);
+}
+
+.ekeZOi .menu-toggle:after {
+  right: 0;
+  width: 72%;
+  top: 1.13em;
+}
+
+.ekeZOi .menu-toggle.x:after {
+  top: 0;
+  width: 100%;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.ekeZOi .menu-toggle.x:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.ekeZOi .menu-toggle:before {
+  top: 0;
+}
+
+.ekeZOi .menu-toggle:before, .ekeZOi .menu-toggle:after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  background-color: currentColor;
+}
+
+.ekeZOi .menu-toggle {
+  z-index: 999;
+  width: 2.78em;
+  height: 2.09em;
+  background: none;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-flexbox;
+  display: inline-flex;
+  margin-top: 0.699em;
+  color: #4831d4;
+}
+
+
+.ekeZOi #logo, .ekeZOi .menu-toggle {
+  color: #4831d4 !important;
+}
 
 .navBar  a{
     color: var(--color-primario) !important;
@@ -34,4 +132,28 @@
     height: 13vh;;
     margin: auto;
     padding: 0.4rem;
+  }
+
+  .nav-burguer {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+  .icon_burguer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1030;
+}
+
+  .menu-hidden {
+    transform: translateX(100%);
+    transition: transform 1s ease-in-out;
+  }
+  
+  .menu-visible {
+    transform: translateX(0);
+    transition: transform 1s ease-in-out;
   }
