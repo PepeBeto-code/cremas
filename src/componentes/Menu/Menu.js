@@ -19,7 +19,7 @@ function Menu() {
           <div className="md:flex hidden" id="navbarNav">
             <ul className="flex">
               <li className="boton-nav">
-                <a className="" aria-current="page" href="#">
+                <a className="" aria-current="page" href="/">
                   Home
                 </a>
               </li>
@@ -32,7 +32,7 @@ function Menu() {
                     <li><Link href="/reafirmantes">Reafirmantes</Link></li>
                 </ul>
               </li>
-              <li className="boton-nav">
+              <li className="boton-nav invisible">
                 <a className="" href="#">
                   Pricing
                 </a>

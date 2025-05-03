@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌿 Cremas Corporales - Página Informativa
 
-## Getting Started
+Este proyecto es una página web informativa desarrollada con **Next.js**, enfocada en cremas corporales hidratantes y reafirmantes. La idea detrás del proyecto es aplicar buenas prácticas de **SEO**, usar etiquetas semánticas de HTML, optimizar la estructura de URLs, y aplicar investigación de palabras clave (**keyword research**) para mejorar el posicionamiento en buscadores.
 
-First, run the development server:
+Aunque el proyecto no está finalizado, ya cuenta con una interfaz bonita, responsiva, y bien organizada a nivel de componentes en React.
+
+## 🚀 Demo
+
+Puedes ver una versión en línea aquí: [Demo en Netlify](https://effulgent-frangollo-7b19c4.netlify.app/)
+
+## 📋 Funcionalidades actuales
+
+✅ Página principal informativa sobre cremas corporales  
+✅ Dos páginas dedicadas a reseñas y comparativas de cremas hidratantes y reafirmantes  
+✅ Contenido con palabras clave investigadas e incluidas  
+✅ Diseño responsivo adaptable a dispositivos móviles  
+✅ Arquitectura modular de componentes en React  
+✅ Uso básico de prácticas SEO: etiquetas semánticas, estructura de encabezados, etc.
+
+## ⚙️ Tecnologías usadas
+
+- **Next.js**
+- **React**
+- **CSS Modules** / **Styled Components** (según implementación)
+- **Netlify** para el despliegue
+
+## 📈 Objetivos SEO implementados (parciales)
+
+- Uso de etiquetas HTML semánticas (`<main>`, `<article>`, `<section>`, `<header>`, `<footer>`)
+- Inclusión de palabras clave relevantes como _mejor crema hidratante_, _crema reafirmante_, _hidratación piel seca_
+- Preparación para optimización de estructura de URLs amigables
+- Preparación para implementar metas (`title`, `description`), Open Graph y JSON-LD
+
+## 🔧 Pendientes / Roadmap
+
+- Terminar redacción de los textos en todas las páginas
+- Añadir más páginas de productos y categorías
+- Optimizar las imágenes (peso, `alt`, `title`)
+- Implementar `next-seo` o configuración personalizada para metas y Open Graph
+- Añadir sitemap.xml y robots.txt
+- Mejorar la accesibilidad (a11y)
+- Escribir pruebas unitarias (opcional)
+
+## 🛠️ Instalación local
 
 ```bash
+# Clonar el repositorio
+git clone https://github.com/PepeBeto-code/cremas.git
+
+# Entrar al directorio del proyecto
+cd cremas
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# El proyecto estará disponible en http://localhost:3000

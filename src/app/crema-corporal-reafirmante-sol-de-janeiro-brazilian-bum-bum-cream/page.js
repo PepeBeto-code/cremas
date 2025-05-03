@@ -14,7 +14,7 @@ function page() {
   ];
   return (
     <main className="flex justify-content-center items-center flex-col">
-      <h1>
+      <h1 className="mt-4">
         Sol de Janeiro Brazilian Bum Bum Cream: Un viaje tropical para tu piel
       </h1>
       <p>
@@ -27,7 +27,7 @@ function page() {
         <h2>
           Pros y contras de la Crema Sol de Janeiro Brazilian Bum Bum Cream
         </h2>
-        <ProsCons pros={pros} cons={cons}/>
+        <ProsCons pros={pros} cons={cons} />
       </section>
 
       <section>
@@ -53,14 +53,13 @@ function page() {
       </section>
 
       <section className="flex  flex-col">
-          <h2>¿Como Se Usa?</h2>
-          <p>
-          1.-Aplica la crema con los dedos en las áreas con celulitis; estómago, brazos, glúteos y cualquier otra área problemática.
-          </p>
-          <p>
-          2.-Masajea tu piel hasta que se absorba por completo.
-          </p>
-        </section>
+        <h2>¿Como Se Usa?</h2>
+        <p>
+          1.-Aplica la crema con los dedos en las áreas con celulitis; estómago,
+          brazos, glúteos y cualquier otra área problemática.
+        </p>
+        <p>2.-Masajea tu piel hasta que se absorba por completo.</p>
+      </section>
     </main>
   );
 }
